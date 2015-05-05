@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Oscilloscope.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\Oscilloscope -TD:\CoIDE\configuration\ProgramData\Oscilloscope/arm-gcc-link.ld -g -L..\..\..\STM32F4-Discovery -lpdmfilter_gcc">
+      <target file="Oscilloscope.elf" lastModified="14d254a0284">
+         <source file="..\obj\heap_4.o" lastModified="14d2549de39"/>
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="14d2549df7a"/>
+         <source file="..\obj\stm32f4_discovery_audio_codec.o" lastModified="14d2549e158"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="14d2549e2be"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14d2549e3d0"/>
+         <source file="..\obj\stm32f4_discovery.o" lastModified="14d2549e520"/>
+         <source file="..\obj\main.o" lastModified="14d2549e657"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14d2549e809"/>
+         <source file="..\obj\timers.o" lastModified="14d2549e97d"/>
+         <source file="..\obj\tasks.o" lastModified="14d2549ebcf"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14d2549ed34"/>
+         <source file="..\obj\list.o" lastModified="14d2549ee6c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14d2549efb0"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="14d2549f12c"/>
+         <source file="..\obj\queue.o" lastModified="14d2549f303"/>
+         <source file="..\obj\port.o" lastModified="14d2549f440"/>
+         <source file="..\obj\stm32f4_discovery_callbacks.o" lastModified="14d2549f57a"/>
+         <source file="..\obj\croutine.o" lastModified="14d2549f6ba"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="14d2549f844"/>
+         <source file="..\obj\event_groups.o" lastModified="14d2549f9ae"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="14d2549fb50"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="14d2549fc99"/>
+         <source file="..\obj\misc.o" lastModified="14d2549fdc8"/>
+         <source file="..\obj\stm32f4_discovery_lis302dl.o" lastModified="14d2549ff09"/>
+      </target>
+   </processor>
+</history>

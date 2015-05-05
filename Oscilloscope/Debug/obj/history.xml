@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Oscilloscope\cmsis_boot -I..\..\..\workspace\Oscilloscope\STM32F4-Discovery -I..\..\..\workspace\Oscilloscope\cmsis_lib\include -I..\..\..\workspace\Oscilloscope\cmsis -I..\..\..\workspace -I..\..\..\workspace\Oscilloscope\freeRTOS\inc -I..\..\..\workspace\Oscilloscope\cmsis_lib -I..\..\..\workspace\Oscilloscope\freeRTOS -I..\..\..\workspace\Oscilloscope">
+      <target file="stm32f4xx_exti.o" lastModified="14d2549fc99">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14cd31502f2"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14d2549ed34">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14cd314aee7"/>
+      </target>
+      <target file="tasks.o" lastModified="14d2549ebcf">
+         <source file="..\..\..\freeRTOS\tasks.c" lastModified="14af2c59a20"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="14d2549df7a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14cd32e3351"/>
+      </target>
+      <target file="event_groups.o" lastModified="14d2549f9ae">
+         <source file="..\..\..\freeRTOS\event_groups.c" lastModified="14af2c4f610"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14d2549e3d0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14cd314af0d"/>
+      </target>
+      <target file="croutine.o" lastModified="14d2549f6ba">
+         <source file="..\..\..\freeRTOS\croutine.c" lastModified="14af2c4f610"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14d2549efb0">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14cd314af3f"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="14d2549e520">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery.c" lastModified="14cd32e3278"/>
+      </target>
+      <target file="misc.o" lastModified="14d2549fdc8">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14cd32e3338"/>
+      </target>
+      <target file="stm32f4_discovery_audio_codec.o" lastModified="14d2549e158">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_audio_codec.c" lastModified="14cd32e327a"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14d2549f12c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14cd32e32ef"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="14d2549f844">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14cd32e32ae"/>
+      </target>
+      <target file="queue.o" lastModified="14d2549f303">
+         <source file="..\..\..\freeRTOS\queue.c" lastModified="14af2c58a80"/>
+      </target>
+      <target file="heap_4.o" lastModified="14d2549de39">
+         <source file="..\..\..\freeRTOS\heap_4.c" lastModified="14af2c55ba0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14d2549e809">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14cd314af94"/>
+      </target>
+      <target file="list.o" lastModified="14d2549ee6c">
+         <source file="..\..\..\freeRTOS\list.c" lastModified="14af2c50d80"/>
+      </target>
+      <target file="stm32f4_discovery_callbacks.o" lastModified="14d2549f57a">
+         <source file="..\..\..\stm32f4_discovery_callbacks.c" lastModified="14cd32e327e"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="14d2549e2be">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="14cd32e331a"/>
+      </target>
+      <target file="port.o" lastModified="14d2549f440">
+         <source file="..\..\..\freeRTOS\port.c" lastModified="14af2c51d20"/>
+      </target>
+      <target file="timers.o" lastModified="14d2549e97d">
+         <source file="..\..\..\freeRTOS\timers.c" lastModified="14af2c59a20"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="14d2549fb50">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14cd32e32ca"/>
+      </target>
+      <target file="stm32f4_discovery_lis302dl.o" lastModified="14d2549ff09">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lis302dl.c" lastModified="14cd32e327c"/>
+      </target>
+      <target file="main.o" lastModified="14d2549e657">
+         <source file="..\..\..\main.c" lastModified="14d2546af80"/>
+      </target>
+   </processor>
+</history>
